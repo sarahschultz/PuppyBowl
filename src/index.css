@@ -1,0 +1,121 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: whitesmoke;
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  /* above is all default boiler */
+}
+
+a {
+  color: whitesmoke;
+  font-weight: bolder;
+}
+a:hover {
+  color: #18056c;
+}
+
+body {
+  margin: 0.5rem;
+  padding: .25rem;
+}
+
+.welcome {
+  display: flex;
+  font-size: larger;
+  align-self: center;
+  color:#00a6ff ;
+  border: .5px solid rgb(0, 0, 144);
+  background-color: rgb(12, 0, 88);
+  border-radius: 20px;
+  padding: .5rem;
+  max-width: fit-content;
+}
+
+
+#app-render{
+  /* background-color: #1d5729; */
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #00a6ffe0;
+  color: white;
+  border-radius: 10px;
+  font-size: x-large;
+  max-width: fit-content;
+}
+
+.puppy-card {
+  border: 1px solid green;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  background-color: #04260bad;
+  padding: .25rem;
+}
+.puppy-card img {
+  max-width: 250px;
+  max-height: 350px;
+  border-radius: 10px;
+}
+
+#home {
+  background-image: url(./assets/IMG_0098.jpeg);
+  background-size: cover;
+  min-height: 250px;
+  min-width: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-flow:column wrap;
+
+}
+
+
+#search-bar-container{
+display:flex;
+flex-direction: column;
+max-width: fit-content;
+border: 1px solid #18056c;
+}
+
+.links {
+  display: flex;
+  flex-flow: column wrap;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#puppies-list {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: left;
+  margin: 1rem;
+  padding: .5rem;
+  cursor: pointer;
+  max-width: fit-content;
+
+}
+
+#puppies-list h2{
+  text-align: left;
+  margin-left: 2rem;
+  color: #18056c;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 0.5rem;
+  max-width: fit-content;
+}
