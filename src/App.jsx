@@ -2,7 +2,7 @@ import React from "react"
 import { useEffect, useState } from "react"
 import { Routes, Route} from "react-router-dom"
 // import'./index.css'
-import { AllPups, PuppyCard, SinglePup, Home, Navbar, SearchBar } from './index'
+import { AllPups, PuppyCard, SinglePup, Home, NavBar, SearchBar } from './index'
 
 function App() {
 const [puppies, setAllPuppies] = useState([])
